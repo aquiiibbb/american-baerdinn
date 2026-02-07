@@ -65,8 +65,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px; /* Reduced from 18px */
-    padding: 20px 20px; /* Reduced from 30px 25px */
+    gap: 18px;
+    padding: 30px 25px;
     position: relative;
 }
 
@@ -251,19 +251,19 @@ div.tripadvisor-icon:hover,
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px; /* Reduced from 12px */
+    gap: 10px;
     margin-top: 5px;
 }
 
 .qr-code {
     background: linear-gradient(135deg, #ffffff, #f8f9fa);
-    padding: 8px; /* Reduced from 5px but increased for larger QR */
+    padding: 2px; /* Reduced from 5px */
     border-radius: 16px;
     box-shadow: 
         0 12px 25px rgba(0, 0, 0, 0.1),
         0 0 0 1px rgba(255, 255, 255, 0.2);
-    width: 250px; /* Increased from 200px */
-    height: 250px; /* Increased from 200px */
+    width: 200px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -302,8 +302,8 @@ div.tripadvisor-icon:hover,
 .qr-image {
     display: block;
     border-radius: 10px;
-    width: 200px; /* Increased from 150px */
-    height: 200px; /* Increased from 150px */
+    width: 180px; /* Increased from 150px */
+    height: 180px; /* Increased from 150px */
     object-fit: contain;
     transition: transform 0.3s ease;
 }
@@ -368,8 +368,8 @@ div.tripadvisor-icon:hover,
     }
     
     .card-body {
-        padding: 18px 15px; /* Reduced padding for mobile too */
-        gap: 12px; /* Reduced gap for mobile */
+        padding: 25px 20px;
+        gap: 15px;
     }
     
     .main-text {
@@ -399,14 +399,14 @@ div.tripadvisor-icon:hover,
     }
     
     .qr-code {
-        width: 200px; /* Increased from 160px */
-        height: 200px; /* Increased from 160px */
-        padding: 8px; /* Reduced padding */
+        width: 160px;
+        height: 160px;
+        padding: 2px; /* Reduced padding for mobile */
     }
     
     .qr-image {
-        width: 170px; /* Increased from 135px */
-        height: 170px; /* Increased from 135px */
+        width: 150px; /* Increased from 135px */
+        height: 150px; /* Increased from 135px */
     }
     
     .qr-section svg {
