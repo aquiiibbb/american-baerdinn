@@ -148,7 +148,7 @@
 
 .qr-code {
     background: white;
-    padding: 15px;
+    padding: 0;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     width: 220px;
@@ -157,14 +157,15 @@
     align-items: center;
     justify-content: center;
     border: 3px solid #FFD700;
+    overflow: hidden;
 }
 
 .qr-image {
     display: block;
-    border-radius: 8px;
-    width: 200px;
-    height: 200px;
-    object-fit: contain;
+    border-radius: 12px;
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
 }
 
 /* HAND ICON STYLING - Logo Colors */
@@ -219,12 +220,12 @@
     .qr-code {
         width: 150px;
         height: 150px;
-        padding: 15px;
+        padding: 0;
     }
     
     .qr-image {
-        width: 130px;
-        height: 130px;
+        width: 150px;
+        height: 150px;
     }
     
     .qr-section svg {
