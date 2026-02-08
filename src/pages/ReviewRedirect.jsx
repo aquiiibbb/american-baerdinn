@@ -8,8 +8,8 @@ import { FaHandPointDown } from "react-icons/fa";const ReviewRedirect = () => {
   const [countdown, setCountdown] = useState(8);
 
   // Real links - replace with actual hotel IDs
-  const googleLink = ' https://www.google.com/travel/search?q=Xpress%20Inn%20%26%20Extended%20Stay%20Marshall%20TX%20Near%20I-20%20E%20%26%20US%20Hwy%2059%2C%20300%20I-20%2C%20Marshall%2C%20TX%2075672%2C%20United%20States&g2lb=4965990%2C72471280%2C72560029%2C72573224%2C72647020%2C72686036%2C72803964%2C72882230%2C72958624%2C73059275%2C73064764%2C73107089%2C73192290%2C73249147&hl=en-IN&gl=in&ssta=1&ts=CAEaRwopEicyJTB4ODYzNmY3YTBiYzllOTBhZDoweDFiOTI4YWE0MWQ5MDg2ODISGhIUCgcI6g8QAhgFEgcI6g8QAhgGGAEyAhAA&qs=CAEyE0Nnb0lnbzNDN01IVW9za2JFQUU4AkIJCYKGkB2kipIbQgkJgoaQHaSKkhs&ap=ugEHcmV2aWV3cw&ictx=111&ved=0CAAQ5JsGahcKEwig14zp-quSAxUAAAAAHQAAAAAQBQ';
-  const tripAdvisorLink = 'https://www.tripadvisor.com/Hotel_Review-g56236-d28804568-Reviews-Xpress_Inn_Extended_Stays-Marshall_Texas.html';
+  const googleLink = 'https://www.google.com/travel/search?q=american%20star%20inn%20-%20baird&g2lb=4965990%2C72471280%2C72560029%2C72573224%2C72647020%2C72686036%2C72803964%2C72882230%2C72958624%2C73059275%2C73064764%2C73249147%2C121522131&hl=en-IN&gl=in&cs=1&ssta=1&ts=CAEaRwopEicyJTB4ODY1NmI5ODZiYzcwNjczZjoweDJmNGFiMjVhM2NmMzRjNDESGhIUCgcI6g8QAxgIEgcI6g8QAxgJGAEyAhAA&qs=CAEyE0Nnb0l3WmpONTZQTHJLVXZFQUU4AkIJCUFM8zxaskov&ap=ugEHcmV2aWV3cw&ictx=111&ved=0CAAQ5JsGahcKEwiwyJmVvsmSAxUAAAAAHQAAAAAQBA'
+  const tripAdvisorLink = 'https://www.tripadvisor.in/Hotel_Review-g55435-d33463543-Reviews-American_Star_Inn-Baird_Texas.html';
 
   // Auto redirect countdown
   useEffect(() => {
@@ -172,8 +172,8 @@ import { FaHandPointDown } from "react-icons/fa";const ReviewRedirect = () => {
         
         {/* Footer */}
         <div className="contact-info">
-          <div>300 / 20 • +19234718277</div>
-          <div>https://xpressinnmarshall.com/</div>
+          <div>500 I-20 • (325) 854-2615</div>
+          <div>info@abvibaird.com</div>
         </div>
         
         <div className="powered-b">

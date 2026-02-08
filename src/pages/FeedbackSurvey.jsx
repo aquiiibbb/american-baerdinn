@@ -83,9 +83,9 @@ const FeedbackSurvey = () => {
         </p>
 
         <div className="contact-info">
-          <div>300 I-20, Marshall, TX</div>
-          <div>+1 923-471-8277</div>
-          <div>https://American Star Inn - Baird.com</div>
+          <div>500 I-20, Baird TX 79504</div>
+          <div>(325) 854-2615</div>
+          <div>info@abvibaird.com</div>
         </div>
 
         <div className="powered-by">
